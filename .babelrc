@@ -1,0 +1,14 @@
+{
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "modules": false, // Isso é importante para manter os módulos ES
+          "targets": {
+            "browsers": ["last 2 versions", "safari >= 7"]
+          }
+        }
+      ]
+    ]
+  }
+  
