@@ -24,6 +24,11 @@ pipeline{
                 bat 'npm run lint'
             }
         }
+         stage('Rodando build'){
+            steps {
+                bat 'npm run build'
+            }
+        }
         
         stage('Deploy'){
             steps {
