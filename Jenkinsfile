@@ -29,5 +29,10 @@ pipeline {
                 sh 'npm run build'
             }
         }
+        stage('Iniciando servidor'){
+            steps {
+                sh 'npm run start'
+            }
+        }
     }
 }
